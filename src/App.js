@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import React from 'react';
 import { SessionProvider } from './component/SessionContext';
 import './App.css';
@@ -43,12 +43,12 @@ function App() {
     <Router Basename={process.env.PUBLIC_URL}>
       <SessionProvider>
         <Routes>
-          <Route  path="/" element={
+          <Route  path="/react-path-client" element={
           <>              
           <MyLogIn />
           </>
           } />
-          <Route  path="/AdminPanel" element={
+          <Route  path="/react-path-client/AdminPanel" element={
             <>        
             <div className='grid-display'>
               <AdminPanel />      
@@ -57,7 +57,7 @@ function App() {
             </div>
             </>
           } />
-          <Route  path="/DocPanel" element={
+          <Route  path="/react-path-client/DocPanel" element={
             <>        
             <div className='grid-display'>
               <DocPanel />      
@@ -65,7 +65,7 @@ function App() {
             </div>
             </>
           } />
-          <Route  path="/DocViewComponent" element={
+          <Route  path="/react-path-client/DocViewComponent" element={
             <>        
             <div className='grid-display'>
               <DocPanel />      
@@ -74,19 +74,19 @@ function App() {
             </div>
             </>
           } />
-          <Route  path="/DrPCPReport/:RFIID?" element={
+          <Route  path="/react-path-client/DrPCPReport/:RFIID?" element={
             <>        
               <DocPanel />      
               <DrPCPReport />     
             </>
           } />
-          <Route  path="/DrPrPrint/:RFIID?" element={
+          <Route  path="/react-path-client/DrPrPrint/:RFIID?" element={
             <>        
               <DocPanel />      
               <DrPrPrint />     
             </>
           } />
-          <Route  path="/PatientPanel" element={
+          <Route  path="/react-path-client/PatientPanel" element={
             <>        
             <div className='grid-display'>
               <PatientPanel />      
