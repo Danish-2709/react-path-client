@@ -48,7 +48,7 @@ function App() {
           <MyLogIn />
           </>
           } />
-          <Route  path="/react-path-client/AdminPanel" element={
+          <Route  path="/AdminPanel" element={
             <>        
             <div className='grid-display'>
               <AdminPanel />      
@@ -57,7 +57,7 @@ function App() {
             </div>
             </>
           } />
-          <Route  path="/react-path-client/DocPanel" element={
+          <Route  path="/DocPanel" element={
             <>        
             <div className='grid-display'>
               <DocPanel />      
@@ -65,7 +65,7 @@ function App() {
             </div>
             </>
           } />
-          <Route  path="/react-path-client/DocViewComponent" element={
+          <Route  path="/DocViewComponent" element={
             <>        
             <div className='grid-display'>
               <DocPanel />      
@@ -74,19 +74,19 @@ function App() {
             </div>
             </>
           } />
-          <Route  path="/react-path-client/DrPCPReport/:RFIID?" element={
+          <Route  path="/DrPCPReport/:RFIID?" element={
             <>        
               <DocPanel />      
               <DrPCPReport />     
             </>
           } />
-          <Route  path="/react-path-client/DrPrPrint/:RFIID?" element={
+          <Route  path="/DrPrPrint/:RFIID?" element={
             <>        
               <DocPanel />      
               <DrPrPrint />     
             </>
           } />
-          <Route  path="/react-path-client/PatientPanel" element={
+          <Route  path="/PatientPanel" element={
             <>        
             <div className='grid-display'>
               <PatientPanel />      
