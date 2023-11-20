@@ -1,0 +1,36 @@
+@media (max-width: 990px){
+.to-print .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.to-print .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333%;
+}
+.to-print .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    border-top: 1px solid black;
+    padding-top: 7px;
+}
+.to-print .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+.to-print p{
+    font-size: 7px;
+    line-height: 0.2;
+    margin-bottom: 0.5rem;
+}
+.to-print h6{
+    font-size: 0.6rem;
+    margin-bottom: 0.2rem;
+}
+.to-print h5{
+    font-size: 0.8rem;
+}
+
+.to-print .row {
+    --bs-gutter-x: 0.8rem;
+}
+}

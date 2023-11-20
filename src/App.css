@@ -1,0 +1,59 @@
+.form-label {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.red-border {
+  border: 2px solid red;
+}
+.chart-container {
+  width: 70%; 
+  height: 400px; 
+  margin: 5px 2%;
+}
+.btn {
+  --bs-btn-padding-x: 0.75rem;
+  --bs-btn-padding-y: 0.220rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.225rem 0.75rem;
+}
+.Drow {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.widget-flat {
+  position: relative;
+  overflow: hidden;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.5rem;
+}
+h5 {
+  font-size: .9375rem;
+}
+@media (min-width: 1200px) and (max-width: 1500px){
+.widget-flat i.widget-icon {
+    display: none;
+}
+}
+
+.widget-icon {
+    color: #727cf5;
+    font-size: 20px;
+    background-color: rgba(114,124,245,.25);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+    display: inline-block;
+}
