@@ -43,7 +43,7 @@ function App() {
     <Router Basename={process.env.PUBLIC_URL}>
       <SessionProvider>
         <Routes>
-          <Route  path="/react-path-client" element={
+          <Route  path="/" element={
           <>              
           <MyLogIn />
           </>
